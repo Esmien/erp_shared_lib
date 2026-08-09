@@ -1,5 +1,5 @@
 [project]
-name = "erp-shared-lib"
+name = "erp_shared_lib"
 version = "0.1.0"
 description = "Core lib for ERP System"
 authors = [
