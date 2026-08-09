@@ -5,6 +5,7 @@ description = "Core lib for ERP System"
 authors = [
     {name = "Владислав Сороковых",email = "black.walf16@gmail.com"}
 ]
+packages = [{include = "erp_shared"}]
 license = "MIT"
 requires-python = ">=3.12, <4.0"
 dependencies = [
