@@ -5,7 +5,6 @@ description = "Core lib for ERP System"
 authors = [
     {name = "Владислав Сороковых",email = "black.walf16@gmail.com"}
 ]
-packages = [{include = "erp_shared"}]
 license = "MIT"
 requires-python = ">=3.12, <4.0"
 dependencies = [
@@ -19,6 +18,8 @@ dependencies = [
     "bcrypt (>=5.0.0,<6.0.0)"
 ]
 
+[tool.poetry]
+packages = [{include = "erp_shared"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
